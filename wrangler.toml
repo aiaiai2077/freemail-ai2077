@@ -1,4 +1,4 @@
-name = "mailfree"
+name = "freemail-ai2077"
 # name = "mail-exhibit"
 main = "src/server.js"
 compatibility_date = "2024-01-01"
@@ -32,9 +32,10 @@ binding = "ASSETS"
 
 
 # R2 存储桶绑定（用于保存完整 EML 内容）
-[[r2_buckets]]
-binding = "MAIL_EML"
-bucket_name = "mail-eml"
+# 注释这 3 行
+# [[r2_buckets]]
+# binding = "MAIL_EML"
+# bucket_name = "mail-eml"
 
 # wrangler.toml (wrangler v3.88.0^) 日志服务
 # [observability.logs]
